@@ -12,6 +12,8 @@ def main():
 
         sys.exit('Missing command-line argument') # else exit with the message
 
+main()
+
 def bitcoin_price(n):
     try:
         response = requests.get('https://api.coindesk.com/v1/bpi/currentprice.json') # connect to the coin desk website
