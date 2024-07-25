@@ -1,6 +1,9 @@
 import requests
 import sys # importing
 
+import requests
+import sys
+
 
 def main():
     if len(sys.argv) == 2: # if the length of the command line is 2
